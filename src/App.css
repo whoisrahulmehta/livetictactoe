@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box !important;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid white;  */
+  list-style: none !important;
+}
+section {
+  width: 50%;
+  height: 90vh;
+}
+/* section:first-child {
+  background-color: red;
+}
+section:nth-child(2) {
+  background-color: green;
+} */
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cube {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  width: 50vmin;
+  min-width: 200px;
+  min-height: 200px;
+  height: 50vmin;
+}
+.bot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 0px !important; */
+  border-radius: 10px;
+  transition: all 0.15s ease-out 0s ;
+}
+.bot:hover{
+  background-color:#dc3545;
+  transform: scale(1.1);
+}
+.greet {
+  text-align: center;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+  height: 20vh;
+}
+.winnerBoard {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.player-X {
+  color: #000000; /* Black Text */
+  background-color: #00ffff; /* Neon Blue */
+}
+.player-O {
+  color: #ffffff; /* White Text */
+  background-color: #39ff14; /* Neon Green */
+}
+.player-X:hover {background-color: inherit;
+  transform: scale(1);
+}
+.player-O:hover {
+background-color: inherit;
+transform: scale(1);
+}
+@media screen and (max-width: 600px) {
+  .right {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 7%;
+  }
+  .cube {
+    width: 100vw;
+    padding: 38px;
+    height: 100vw;
+    margin: 0%;
+}
+  .left {
+    width: 100%;
+    height: auto;
+  }
+  .greet {
+    height: 18vh;
+  }
+  .winnerBoard {
+    height: 40vh;
+    padding: 40px;
+  }
+  .buttons {
+    height: 9vh;
+  }
+  header{
+    text-align: center;
+  }
+  .buttons-landing{
+    margin-top: 20vh;
+  }
+  .player-X {
+    color: #000000; /* Black Text */
+    background-color: #00ffff; /* Neon Blue */
+  }
+  .player-O {
+    color: #f43333; /* White Text */
+    background-color: #39ff14; /* Neon Green */
+  }
+}
+
