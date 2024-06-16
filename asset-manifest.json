@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/livetictactoe/static/css/main.1f8a7d74.css",
+    "main.js": "/livetictactoe/static/js/main.c66da75d.js",
+    "static/js/453.1d9a75e6.chunk.js": "/livetictactoe/static/js/453.1d9a75e6.chunk.js",
+    "static/media/logo.svg": "/livetictactoe/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/livetictactoe/index.html",
+    "main.1f8a7d74.css.map": "/livetictactoe/static/css/main.1f8a7d74.css.map",
+    "main.c66da75d.js.map": "/livetictactoe/static/js/main.c66da75d.js.map",
+    "453.1d9a75e6.chunk.js.map": "/livetictactoe/static/js/453.1d9a75e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f8a7d74.css",
+    "static/js/main.c66da75d.js"
+  ]
+}
